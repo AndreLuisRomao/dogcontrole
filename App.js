@@ -42,9 +42,9 @@ const carregarProdutosAsync = async () => {
 };
 
 export default {
-  salvarProdutoAsync;
-  removerProdutoAsync;
-  carregarProdutosAsync;
+  salvarProdutoAsync,
+  removerProdutoAsync,
+  carregarProdutosAsync,
 };
 
 import React, { useState, useEffect } from 'react';
